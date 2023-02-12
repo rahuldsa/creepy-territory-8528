@@ -1,0 +1,126 @@
+*{
+    font-family: "Brandon Text", Arial, sans-serif;
+}
+
+.container{
+    border:0px solid red;
+    width:250px;
+    height:auto;
+    margin: auto;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 20px;
+    padding:20px;
+    margin-bottom: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    
+}
+
+.container>input{
+    height:30px;
+
+    width:80%;
+    margin-bottom: 10px;
+}
+.container>h2{
+    margin-bottom: 10px;
+    color: red;
+    
+}
+h3{
+    color: red;
+}
+
+.container>button{
+    width:80%;
+    height:30px;
+    margin-bottom: 10px;
+}
+
+#main_con{
+    display: flex;
+    /* border: 1px solid red; */
+    margin-bottom: 20px;
+}
+.next_container{
+    border:0px solid red;
+    width:250px;
+    height:auto;
+    margin: auto;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 20px;
+    padding:20px;
+    margin-bottom: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    
+}
+
+.next_container>input{
+    height:30px;
+
+    width:80%;
+    margin-bottom: 10px;
+    
+}
+.next_container>h2{
+    margin-bottom: 10px;
+    
+}
+
+.next_container>button{
+    width:80%;
+    height:30px;
+    margin-bottom: 10px;
+}
+.next_container{
+    margin-right: 300px;
+    
+}
+#nd_con{
+    margin-top: 50px;
+}
+
+/* css for nav and footer start */
+
+#two1{
+    color:white;
+    background-color: black;
+    width:100%;
+    margin: auto;
+    height:50px;
+    padding:5px;
+    
+}
+#two1>p{
+    text-align: center;
+}
+#admin-head{
+    background-color: rgb(213, 251, 213);
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+}
+#admin-head>div>img{
+    width:40%;
+}
+#admin-head>div>p{
+    font-size: 35px;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+#ap{
+    width:30%;
+    padding:5px;
+ 
+    border-radius: 5px;
+ 
+    
+}
+#ap:hover{
+
+    background-color: rgb(185, 254, 185);
+    text-decoration: underline;
+}
